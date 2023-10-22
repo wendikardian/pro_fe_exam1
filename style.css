@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.nav-dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.nav-button {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.nav-links li {
+    display: block;
+    padding: 10px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: #333;
+    margin-top: 10px;
+}
+
+.dropdown-content li:hover {
+    color: #c99360;
+    background: #111;
+    cursor: pointer;
+}
+
+.dropdown-content li:hover a {
+    color: #c99360;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.dropdown-content li {
+    padding: 10px;
+}
+
+.dropdown-content a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.jumbotron{
+    background-image: url(images/allbirds-sneakers-review-tree-runnerjpg.jpg);
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.login-btn{
+    background-color: #d47116;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.login-btn:hover { 
+    background-color: #333;
+
+}
+
+.login-btn a:hover{
+    color: #d47116 !important;
+}
