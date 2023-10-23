@@ -293,3 +293,42 @@ button.add-chart{
 button.add-chart:hover{
     background-color: #333;
 }
+
+.related-product{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 100px;
+}
+
+.product-card {
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-card a{
+    margin-top: -20px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #d47116;
+    padding: 10px;
+    border-radius: 10px;
+    width: 50%;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.product-card a:hover{
+    background-color: #333;
+}
+
+.product-card img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 1px solid #d47116;
+}
