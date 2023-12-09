@@ -211,7 +211,7 @@ footer {
   display: flex;
   background-color: #333;
   color: white;
-  height: 250px;
+  /* height: 250px; */
   padding: 30px;
   justify-content: space-evenly;
   background-image: url(images/shoes-icon.png);
